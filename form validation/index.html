@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <style>
+      .error {
+        color: red;
+        font-size: 14px;
+      }
+      input {
+        display: block;
+        width: 30%;
+      }
+    </style>
+  </head>
+  <body>
+    <form method="post">
+      <label> username : </label> <br />
+      <input type="text" name="username" />
+      <span class="error"></span> <br />
+
+      <label> email : </label> <br />
+      <input type="email" name="useremail" />
+      <span class="error"></span><br />
+
+      <label> password : </label> <br />
+      <input type="password" name="userpassword" />
+      <span class="error"></span><br />
+
+      <label> confirm password : </label> <br />
+      <input type="password" name="confirmpassword" />
+      <span class="error"></span><br />
+      <br /><br />
+
+      <input type="submit" />
+    </form>
+
+    <script src="script.js"></script>
+  </body>
+</html>
